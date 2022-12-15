@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1554612292-c175942fb8c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+
+.batata-img {
+    position: relative;
+    height: 250px;
+    filter: drop-shadow(10px 10px 4px #000000);
+}
+
+.header-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 2px #000000;
+}
+
+.batata-tipo-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(, 2fr));
+}
+
+/* -------------------------classes de utilidade ------------------------- */
+
+.centralizar-y {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.centralizar-xy {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
